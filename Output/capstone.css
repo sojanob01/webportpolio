@@ -1,0 +1,270 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: nobox;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: black;
+}
+
+/*HOME SECTION START*/
+
+.banner {
+	width: 100;
+	height: 100vh;
+	background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.2)50%, rgba(0, 0, 0, 1.0)), url(./about.webp);
+	background-size: cover;
+	background-position: center;
+}
+
+
+.navbar {
+	width: 85%;
+	margin: auto;
+	padding: 50px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 50px;
+	cursor: pointer;
+}
+
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+.navbar ul li ::after {
+	content: '';
+	height: 3px;
+	width: 0;
+	background: grey;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	transition: 1.5s;
+}
+
+.navbar ul li :hover::after {
+	width: 100%;
+}
+
+.navbar a .active{
+	color: var(--main-color);
+}
+
+.intro {
+	position: absolute;
+	top: 30%;
+	color: white;
+	left: 10%;
+	
+}
+
+section .title2 {
+	font-family: 'Gloock', serif;
+	font-size: 60px;
+	margin-right: 2rem;
+
+}
+
+.intro1 {
+	position: relative;
+}
+
+.intro1 ::after {
+	content: '';
+	position: absolute;
+	left: 450px;
+	right: 100px;
+	top: 20px;
+	height: 90%;
+	width: 10%;
+	border: 10px solid grey;
+
+}
+
+.intro {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.intro-description {
+	color: white;
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: 5px;
+	padding-right: 60rem;
+	display: inline-block;
+}
+
+
+
+/*HOME SECTION END*/
+
+
+/*ABOUT SECTION START*/
+
+.heading {
+	text-align: center;
+	margin-top: 25px;
+	font-family: 'Gloock', serif;
+	padding-top: 3rem;
+	margin-left: 15rem;
+	margin-right: 15rem;
+}
+
+.heading h1 {
+	font-size: 50px;
+	color: white;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.heading p {
+	color: white;
+	margin-bottom: 50px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 5px;
+}
+
+.about-me {
+	display: flex;
+	width: 80%;
+	margin: auto;	
+}
+
+.about-me ::after {
+	content: '';
+	position: absolute;
+	left: 1020px;
+	right: 80px;
+	top: 66rem;
+	height: 10%;
+	width: 5%;
+	border: 10px solid grey;
+}
+
+.about-me1 {
+	font-family: 'Gloock', serif;
+	padding-top: 4rem;
+	text-align: center;
+	color: white;
+	padding-bottom: 3rem;
+	padding-right: 4rem;
+	padding-right: 5rem;
+}
+
+.about-me1 h2 {
+	background-color: rgba(0, 0, 0, 1.0);
+}
+
+.carousel-item {
+	height: 50vh;
+	min-height: 100px;
+	min-width: 200px;
+}
+
+.carousel-caption {
+	bottom: 200px;
+
+
+}
+
+.carousel-caption h5 {
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+
+
+.carousel-caption a {
+	text-transform: uppercase;
+	text-decoration: none;
+	background: grey;
+	padding: 5px 20px;
+	display: inline-block;
+}
+
+.content {
+	padding: 35px;
+}
+
+.content h2 {
+	color: white;
+	font-size: 24px;
+	margin: auto;
+	padding-top: 3rem;
+}
+
+.content p {
+	color: white;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 15px 0px;
+	margin-bottom: 1rem;
+	letter-spacing: 1px;
+}
+
+.button {
+	display: inline-block;
+	color: white;
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	padding-left: 5rem;
+}
+
+.button :hover {
+	background-color: white;
+}
+
+
+.readmore {
+	background-color: grey;
+	padding: top 10rem;
+	color: grey;
+
+}
+
+/*About me end*/
+
+/*Contact Us*/
+
+.contact-form {
+	width: 100;
+	height: 100vh;
+	background-image:linear-gradient(to top, rgba(0, 0, 0, 0.2)50%, rgba(0, 0, 0, 1.0)), url(./background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.contact {
+	margin-top: 200px;
+	align-items: center;
+	margin-left: 20rem;
+	margin-right: 20rem;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: white;
+}
